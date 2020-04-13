@@ -7,7 +7,7 @@
 #=================================================
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-git clone https://github.com/tzxiaozhen88/luci-app-koolproxyR.git package/koolproxyR
+git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/koolproxyR
 git clone https://github.com/pymumu/smartdns.git package/smartdns
 git clone https://github.com/ujincn/luci-app-smartdns-compat.git package/luci-app-smartdns
 git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
@@ -20,7 +20,7 @@ git clone https://github.com/Sunnice/luci-app-vssr.git package/vssr
 git clone https://github.com/frainzy1477/luci-app-clash.git package/clash
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 git clone https://github.com/Lienol/openwrt-package.git package/lienol
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argonnew
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/Lienol/luci-theme-darkmatter.git package/luci-theme-darkmatter
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
 git clone https://github.com/Mrbai98/luci-theme-atmaterial.git package/luci-theme-atmaterial
